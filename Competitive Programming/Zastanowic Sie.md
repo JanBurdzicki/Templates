@@ -17,3 +17,4 @@ Która z tych rzeczy jest lepsza? Bo jest int_distribution w obu (może trzeba z
 * #define uid(a, b) uniform_int_distribution<int>(a, b)(rng)
 
 * chcę zrobić templatkę funkcji, która bierze 2 wartości i min/max przypisuje do pierwszej -> jak ją nazwać?
+* powiedzcie mi czy jest jakaś duża różnica pomiędzy emplace_back a push_back w generatorze `gen tree smart.cpp`

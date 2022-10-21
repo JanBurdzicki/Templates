@@ -110,7 +110,7 @@ const long double EPSILON = 1e-6; // 1e-14
 const int dx[] = {0, 0, -1, 1}; // {1, 0, -1, 0}
 const int dy[] = {1, -1, 0, 0}; // {0, 1, 0, -1}
 
-#define CERR(x) cerr << #x << ": " << x << "\n"
+#define cat(x) cerr << #x << ": " << x << "\n"
 
 // Opcje wyswietlania informacji o kodzie: __func__, __LINE__
 
@@ -134,7 +134,7 @@ int main()
 	}
 
 	// debug() << imie(a[0]) imie(a[1]);
-	// CERR(a[0]);
+	// cat(a[0]);
 
 	return 0;
 }

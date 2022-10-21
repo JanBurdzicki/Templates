@@ -21,20 +21,12 @@ typedef long long LL;
 typedef unsigned long long ULL;
 typedef long double LD;
 
-const int INF = 1e9 + 5; // 998244353
-const long long LLINF = 1e18 + 5;
-
-const int MOD = 1e9 + 7;
-
 const int MAX_N = 1e5 + 5;
+const int MOD = 1e9 + 7; // 998244353
+const int INF = 1e9 + 5;
+const long long LLINF = 1e18 + 5; // lub BIG_INF, nie za blisko LLONG_MAX
 
-// moze makra na scanf i printf
-// debug
-// #define cat(x) cout << #x << ": " << x << endl
-
-
-
-
+#define cat(x) cerr << #x << ": " << x << "\n"
 
 int main()
 {
