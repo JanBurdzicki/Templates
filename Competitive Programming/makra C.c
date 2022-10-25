@@ -21,12 +21,14 @@ typedef long long LL;
 typedef unsigned long long ULL;
 typedef long double LD;
 
-const int MAX_N = 1e5 + 5;
-const int MOD = 1e9 + 7; // 998244353
-const int INF = 1e9 + 5;
-const long long LLINF = 1e18 + 5; // lub BIG_INF, nie za blisko LLONG_MAX
+#define MAX_N (int) 1e5 + 5
+#define MOD (int) 1e9 + 7 // 998244353
+#define INF (int) 1e9 + 5
+#define LLINF (long long) 1e18 + 5
+#define PI (long double) acos(-1)
+#define EPSILON (long double) 1e-6 // 1e-14
 
-#define cat(x) cerr << #x << ": " << x << "\n"
+// #define cat(x) cerr << #x << ": " << x << "\n" // TODO: poprawic, znalezc strumien bledow dla C
 
 int main()
 {
